@@ -1,0 +1,56 @@
+ /* 
+  * Date : 28-10-15
+  * Start Git & githun
+  * 
+  *
+  */
+
+  ?? GIT ??
+
+ Step 01 :  mkdir notes
+ Step 02 : cd notes
+ Step 03 : ls,ls -a
+ Step 04 : git init --> Creating / initializing git repository
+ Step 05 : touch index.html,
+		 open index.html,
+		 write something
+
+
+
+ Git Staging:
+ 01. Git add filename
+ 02. Git add -A  --> [A is shorthand for - all stage all changed file in directory and subdirectories]
+ 03. Git add . --> Stage all changed file in directory but not subdirectories
+ 04. Git add * .js --> directory wildcard
+ 05. Git add **/* .js --> directory  & subdirectory wildcard
+ 06. Checking the difference : git diff
+
+
+copyright ©️ 2022
+
+
+
+git rule 
+
+git init,
+ git status,
+git add [file name],
+git add . [all]
+ git diff[ diffrent],
+git restore filename [back]
+git restore --staged filename [out git area]
+
+local repo :
+ git commit -m "meaasge herer"
+ git commit -am "meaasge herer"
+git log
+git log --online
+
+
+
+uncommit: 
+git reset --soft HEAD^ [goto sagging area] 
+ get reset HEAD^ [goto working directory]
+ git reset --hard HEAD^ [all remove ]
+git reset HEAD^
+
